@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E544D9D32AA285B100A9A353 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = E544D9D22AA285B100A9A353 /* jpapexpredators.json */; };
+		E544D9D52AA2874000A9A353 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E544D9D42AA2874000A9A353 /* ApexPredator.swift */; };
+		E544D9D72AA2888B00A9A353 /* PredatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E544D9D62AA2888B00A9A353 /* PredatorController.swift */; };
 		E5BAA55B2AA02036007AE2CF /* dinoSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BAA55A2AA02036007AE2CF /* dinoSwiftUIAppApp.swift */; };
 		E5BAA55D2AA02036007AE2CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BAA55C2AA02036007AE2CF /* ContentView.swift */; };
 		E5BAA55F2AA02037007AE2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BAA55E2AA02037007AE2CF /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E544D9D22AA285B100A9A353 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		E544D9D42AA2874000A9A353 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		E544D9D62AA2888B00A9A353 /* PredatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorController.swift; sourceTree = "<group>"; };
 		E5BAA5572AA02036007AE2CF /* dinoSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dinoSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BAA55A2AA02036007AE2CF /* dinoSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinoSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		E5BAA55C2AA02036007AE2CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +59,10 @@
 			children = (
 				E5BAA55A2AA02036007AE2CF /* dinoSwiftUIAppApp.swift */,
 				E5BAA55C2AA02036007AE2CF /* ContentView.swift */,
+				E544D9D42AA2874000A9A353 /* ApexPredator.swift */,
+				E544D9D62AA2888B00A9A353 /* PredatorController.swift */,
 				E5BAA55E2AA02037007AE2CF /* Assets.xcassets */,
+				E544D9D22AA285B100A9A353 /* jpapexpredators.json */,
 				E5BAA5602AA02037007AE2CF /* Preview Content */,
 			);
 			path = dinoSwiftUIApp;
@@ -127,6 +136,7 @@
 			files = (
 				E5BAA5622AA02037007AE2CF /* Preview Assets.xcassets in Resources */,
 				E5BAA55F2AA02037007AE2CF /* Assets.xcassets in Resources */,
+				E544D9D32AA285B100A9A353 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E544D9D72AA2888B00A9A353 /* PredatorController.swift in Sources */,
+				E544D9D52AA2874000A9A353 /* ApexPredator.swift in Sources */,
 				E5BAA55D2AA02036007AE2CF /* ContentView.swift in Sources */,
 				E5BAA55B2AA02036007AE2CF /* dinoSwiftUIAppApp.swift in Sources */,
 			);
